@@ -1,0 +1,21 @@
+# 기본은 전부 제외 (디스크 이미지, 모델, 바이너리, llama.cpp 소스 등 대용량)
+/*
+# 올릴 것만 허용
+!/.gitignore
+!/README.md
+!/RUNBOOK.md
+!/microvm_llm_cache_trial/
+!/trial-results/
+!/tools/
+!/analyze_trial.py
+!/cache_calibrate.c
+!/intervm_probe.c
+!/prepare-vm.sh
+!/vm1-model.json
+!/vm2-model.json
+!/vm2-private.json
+!/vm1-pmem.json
+!/vm2-pmem.json
+!/vm1-dual.json
+!/vm2-dual.json
+!/vm1.json
